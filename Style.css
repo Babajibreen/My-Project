@@ -10,15 +10,20 @@
     align-items: center;
     padding: 15px 20px;
     color: white;
+
 }
 .nav-right{
     display: flex;
     align-items: center;
     gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .nav-left{
     display: flex;
     gap: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .nav-item{
     color: white;
@@ -29,6 +34,8 @@
 }
 .nav-item:hover{
     background-color: gray;
+    border-radius: 30px;
+    width: 80px;
 }
 .drop-down{
    position: relative; 
@@ -63,15 +70,46 @@
 .drop-down:hover .drop-content{
     display: block;
     background: black;
+    width: 500%;
 }
-/* @media(max-width: 768px){
-.navbar{
-    flex-direction: column;
-    align-items: flex-start;
+#sign-up{
+    background: white;
+    border-radius: 25px;
+    color: black;
+    width: 70px;
+    padding: 5px;
 }
-    
+#sign-up:hover{
+    background: gray;
 }
-.nav-left, .nav-right{
-    flex-direction: column;
-    gap: 10px;
-} */
+.suggestion-items{
+    display: flex;
+    gap: 30px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.reserve, .ride, .courier{
+    background: ghostwhite;
+    width: 27%;
+}
+h1{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+img{
+    float: right;
+    margin-right: 7%;
+}
+h5{
+    font-size: 20px;
+}
+.suggestion-btn{
+    border: none;
+    padding: 20px;
+    border-radius: 25px;
+    margin-left: 4%;
+    width: 100px;
+    background: white;
+    font-weight: bold;
+    cursor: pointer;
+}
