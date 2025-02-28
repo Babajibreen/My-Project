@@ -96,7 +96,7 @@ h1{
     margin-top: 5%;
     margin-left: 3%;
 }
-img{
+.suggestion-img{
     float: right;
     margin-right: 7%;
 }
@@ -112,4 +112,48 @@ h5{
     background: white;
     font-weight: bold;
     cursor: pointer;
+}
+.activity{
+    display: flex;
+    margin-top: 10%;
+    gap: 6%;
+    margin-left: 5%;
+}
+.activity-btn{
+    margin-top: 5%;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background: black;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+}
+.activity-btn:hover{
+    background: rgb(44, 42, 42);
+}
+.activity p{
+    font-size: 20px;
+}
+.activity h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.activity a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid gainsboro;
+    padding: 6px;
+}
+.activity a:hover{
+    animation: example;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+@keyframes example{
+from{border-bottom: 2px solid gainsboro;}
+to{border-bottom: 2px solid black;}
 }
