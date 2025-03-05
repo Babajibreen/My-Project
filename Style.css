@@ -21,6 +21,7 @@
 }
 .nav-left{
     display: flex;
+    align-items: center;
     gap: 20px;
     margin-left: 5%;
     margin-right: 5%;
@@ -28,14 +29,14 @@
 .nav-item{
     color: white;
     font-size: 17px;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
     transition: 0.3s;
 }
 .nav-item:hover{
     background-color: gray;
     border-radius: 30px;
-    width: 80px;
+    width: fit-content;
 }
 .drop-down{
    position: relative; 
@@ -207,4 +208,182 @@ to{border-bottom: 1px solid black;}
 @keyframes example{
 from{border-bottom: 1px solid gainsboro;}
 to{border-bottom: 1px solid black;}
+}
+.activity2{
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    display: flex;
+    gap: 10%;
+
+}
+.activity2-btn{
+    margin-top: 5%;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background: black;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+}
+.activity2-btn:hover{
+    background: rgb(44, 42, 42);
+}
+.activity2 p{
+    font-size: 20px;
+    font-weight: normal;
+}
+.activity2 h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.activity2 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid gainsboro;
+    padding: 6px;
+}
+
+.activity2 a:hover{
+    animation: example;
+    position: relative;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+@keyframes example{
+from{border-bottom: 1px solid gainsboro;}
+to{border-bottom: 1px solid black;}
+}
+.download{
+    display: flex;
+    gap: 5%;
+    margin-top: 5%;
+    background: gainsboro;
+    padding: 7%;
+    background-size: cover;
+
+}
+#head{
+    margin-top: -5%;
+    
+}
+.qr-items1{
+    background: white;
+    padding: 10px;
+    margin-left: -30%;
+}
+.qr-items2{
+    background: white;
+    padding: 10px;
+}
+.right{
+    float: right;
+    margin-left: 45%;
+    margin-top: -25%;
+    font-size: 20px;
+}
+.right p{
+    margin-top: -15%;
+}
+.qr-items1 a, .qr-items2 a{
+    text-decoration: none;
+    color: black;
+}
+span{
+    margin-left: 80%;
+    margin-top: -100%;
+}
+span:hover{
+    animation: span;
+    animation-duration: 3s;
+}
+@keyframes span{
+    from{margin-left: 80%;}
+    to{margin-left: 90%;}
+}
+footer{
+    background: black;
+    color: white;
+    padding: 30px;
+}
+.h3p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+td{
+    display: block;
+    text-align: center;
+}
+table{
+    display: flex;
+    gap: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img-items{
+    display: flex;
+    margin-top: 4%;
+    gap: 20%;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.img-left{
+    display: flex;
+    gap: 80px;
+}
+.img-right{
+    display: flex;
+    gap: 20px;  
+}
+.img-right a{
+    text-decoration: none;
+    color: white;
+}
+.footer-btns{
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.footer-btns button{
+    border: 2px solid black;
+    padding: 5px;
+}
+.footer-btns button:hover{
+    cursor: pointer;
+    
+}
+.lfi{
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 4%;
+    margin-right: 3%;
+}
+.lfi-left{
+   margin-right: 70% ;
+   color: rgb(133, 132, 132);
+}
+.lfi-right{
+    display: flex;
+    gap: 20px;
+}
+.lfi-right a{
+    text-decoration: none;
+    color: rgb(134, 133, 133);
+    font-size: 16px;
+}
+.lfi-right a:hover{
+    animation: change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-play-state: initial;
+    
+}
+@keyframes change{
+    from{color: rgb(134, 133, 133);}
+    to{color: rgb(58, 57, 57);}
 }
